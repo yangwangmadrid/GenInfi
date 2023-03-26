@@ -39,10 +39,16 @@ This is a typical python program and requires no installation as long as Python 
 
 #### 2. Types of structural constructions
 
+**(i) Direct generation of a specified structure**
 
-### II. Detailed instructions with specific examples
+**(ii) Enumeration of all possible structures from specified kekulene/clarene units**
 
-#### 1. Generalized kekulenes
+**(iii) Enumeration of all possible structures with a given number of rings**
+
+
+### II. Detailed instructions with examples
+
+#### 1. Kekulenes
 
 #### 2. Clarenes
 
