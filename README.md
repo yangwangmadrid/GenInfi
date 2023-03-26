@@ -11,6 +11,9 @@ This is a handy program for generating structures of generalized infinitenes, ge
 The Author of the Geninfi software is Yang Wang 
 (yangwang@yzu.edu.cn; orcid.org/0000-0003-2540-2199). The Geninfi program is 
 released under GNU General Public License v3 (GPLv3).
+
+<img src="https://www.gnu.org/graphics/gplv3-or-later.png" 
+     alt="Logo of GPLv3 or later" title="GPLv3 or later" />
  
  
 ## Disclaimer
