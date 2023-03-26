@@ -41,9 +41,9 @@ This is a typical python program and requires no installation as long as Python 
 
 **(i) Direct generation of a specified structure**
 
-**(ii) Enumeration of all possible structures from specified kekulene/clarene units**
+**(ii) Enumeration of structures from specified kekulene/clarene units**
 
-**(iii) Enumeration of all possible structures with a given number of rings**
+**(iii) Enumeration of structures with a given number of rings**
 
 
 ### II. Detailed instructions with examples
