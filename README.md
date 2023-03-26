@@ -28,4 +28,4 @@ does not take on the responsibility of providing technical support.
 
 
 ### Installation
-This is a typical python program and requires no installation as long as Python 3 has been preinstalled in your computer. Upon downloading the Geninfi package, simply decompress it to any location as you like, which which is referred to as the source directory of Geninfi (hereafter denoted by `SRC_GENINFI`).
+This is a typical python program and requires no installation as long as Python 3 has been preinstalled in your computer. Upon downloading the Geninfi package, simply decompress it to any location as you like. Hereafter, we refer to the folder where the main program file, *geninfi.py*, is located as the source directory of Geninfi (denoted by `SRC_GENINFI`).
