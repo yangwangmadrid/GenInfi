@@ -185,7 +185,17 @@ GenInfi will produce 36 different possible structures: `cinf_R42-2_4_2_4_2_4-2_4
 ```
 python ../../geninfi.py cinf 32
 ```
-We will obtain 27 isomers of \[32\]C-infinitenes with different combination of clarene units: `cinf_R32-2_2_2_2_2_2-2_2_6_2_2_6_d-2.xyz`, ..., `cinf_R32-4_2_2_4_2_2-4_2_2_4_2_2_d0.xyz`.
+We will obtain 27 isomers of \[32\]C-infinitenes with different combinations of clarene units: `cinf_R32-2_2_2_2_2_2-2_2_6_2_2_6_d-2.xyz`, ..., `cinf_R32-4_2_2_4_2_2-4_2_2_4_2_2_d0.xyz`.
 
 
 #### 5. CC-infinitenes
+
+- Generate CC-infinitene <coronene|6,2,4,4,4,2>(-6):
+```
+python ../../geninfi.py ccinf 6 2 4 4 4 2 -6
+```
+The generated \[28\]C-infinitene will be stored in `ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.xyz`, as shown in the figure below.
+
+<img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.png" 
+     alt="CC-infinitene <coronene|6,2,4,4,4,2>(-6)" title="CC-infinitene <1,1,1,1,1,1|6,2,4,4,4,2>(-6)" width=250 />
+
