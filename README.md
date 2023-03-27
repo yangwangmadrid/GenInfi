@@ -175,4 +175,17 @@ The obtained 42-ring infinitene, `cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.xyz`, sho
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.png" 
      alt="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" title="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" width=250 />
 
+- Enumerate all possible C-infinitenes composed of clarenes <2,4,2,4,2,4> and <6,4,2,6,4,2>"
+```
+python ../../geninfi.py cinf 2 4 2 4 2 4 6 4 2 6 4 2
+```
+GenInfi will produce 36 different possible structures: `cinf_R42-2_4_2_4_2_4-2_4_6_2_4_6_d-2.xyz`, ..., `cinf_R42-4_2_4_2_4_2-6_4_2_6_4_2_d0.xyz`.
+
+- Enumerate all possible C-infinitenes with 32 rings
+```
+python ../../geninfi.py cinf 32
+```
+We will obtain 27 isomers of \[32\]C-infinitenes with different combination of clarene units: `cinf_R32-2_2_2_2_2_2-2_2_6_2_2_6_d-2.xyz`, ..., `cinf_R32-4_2_2_4_2_2-4_2_2_4_2_2_d0.xyz`.
+
+
 #### 5. CC-infinitenes
