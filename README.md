@@ -129,6 +129,15 @@ The output file `clr_R22-2_4_4_4_2_6.xyz` will be generated.
 
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/clr_R22-2_4_4_4_2_6.png" 
      alt="clarene <2,4,4,4,2,6>" title="clarene <2,4,4,4,2,6>" width=180 />
+     
+- Enumerate all possible \[26\]clarene structures"
+```
+python ../../geninfi.py clr 26
+```
+Two possible isomers, `clr_R26-2_4_6_4_2_8.xyz` and `clr_R26-2_6_4_4_4_6.xyz` will be created. The structure of the first one is shown in the follow figure.
+<img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/clr_R26-2_4_6_4_2_8.png" 
+     alt="clarene <2,4,6,4,2,8>" title="clarene <2,4,6,4,2,8>" width=180 />
+
 
 #### 3. K-infinitenes
 
