@@ -89,12 +89,23 @@ The simplest (but most exhaustive) way to generate these macrocyclic compounds i
 #### 3. Outputs
 
 - All detailed information is printed out to the screen during the execution of the program. This could be quite lengthy especially for a full enumeration of structures. It is thus recommended to redirect the screen output to a log file (using `python SRC_GENINFI/geninfi.py ... > log_file`).
-- All generated structures are saved as Cartesian coordinates of atoms in \*.xyz files.
+- All generated structures are saved as Cartesian coordinates of atoms in \*.xyz files, which can be visualized by many softwares such as [JMol](https://jmol.sourceforge.net/).
 - For each structure, the simple Hückel π energy is computed and given in the title line of the \*.xyz file.
+
 
 ### II. Detailed instructions with examples
 
+The following examples can be found in the `examples/` folder. The execution command in each case is given in the script\*.sh file. The generated the \*.xyz output files are in the same folder.
+
 #### 1. Kekulenes
+
+- Generate kekulene \[1,3,2,3,1,4\]:
+```
+python ../../geninfi.py kek 1 3 2 3 1 4
+```
+<img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kek_R14-1_3_2_3_1_4.png" 
+     alt="kekulene [1,3,2,3,1,4]" title="kekulene [1,3,2,3,1,4]" width=150 />
+
 
 #### 2. Clarenes
 
