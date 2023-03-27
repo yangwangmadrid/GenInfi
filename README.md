@@ -49,7 +49,7 @@ You can also refer to the detailed instructions with examples in the next sectio
 
 The program is executed at command line, as follows:
 
-```
+```js
 python SRC_GENINFI/geninfi.py <kinf|cinf|ccinf|kek|clr> <parameters>
 ```
 where `parameters` can be either of the following options, depending on the types of constructions:
