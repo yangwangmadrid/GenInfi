@@ -151,7 +151,28 @@ The constructed molecule contains 42 rings, as written in `kinf_R42-2_4_3_4_2_5-
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kinf_R42-2_4_3_4_2_5-3_3_4_5_1_6_d1.png" 
      alt="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" title="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" width=250 />
 
+- Enumerate all possible K-infinitenes composed of kekulenes \[1,1,2,1,1,2\] and \[1,2,3,1,2,3\]"
+```
+python ../../geninfi.py kinf 1 1 2 1 1 2 1 2 3 1 2 3
+```
+As GenInfi outputs, there are as many as 30 enumerated structures: `kinf_R20-1_1_2_1_1_2-1_2_3_1_2_3_d-1.xyz`, ..., `kinf_R20-1_2_1_1_2_1-3_2_1_3_2_1_d0.xyz`.
+
+- Enumerate all possible K-infinitenes containing 14 rings
+```
+python ../../geninfi.py kinf 14
+```
+Four possible isomers will be found: `kinf_R14-1_1_1_1_1_1-1_1_2_1_1_2_d-1.xyz`, `kinf_R14-1_1_1_1_1_1-1_1_2_1_1_2_d0.xyz`, `kinf_R14-1_1_1_1_1_1-1_1_2_1_1_2_d1.xyz`, and `kinf_R14-1_1_1_1_1_1-2_1_1_2_1_1_d-1.xyz`.
+
 
 #### 4. C-infinitenes
+
+- Generate C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2):
+```
+python ../../geninfi.py cinf 2 4 2 4 2 4 6 4 2 6 4 2 -2
+```
+The obtained 42-ring infinitene, `cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.xyz`, shows a structure as follows.
+
+<img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.png" 
+     alt="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" title="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" width=250 />
 
 #### 5. CC-infinitenes
