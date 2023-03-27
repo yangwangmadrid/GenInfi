@@ -55,10 +55,10 @@ python SRC_GENINFI/geninfi.py <kinf|cinf|ccinf|kek|clr> <parameters>
 where `parameters` can be either of the following options, depending on the types of constructions:
 ```
 - Nring  (Number of rings for the molecules to enumerate)
-- h1 h2 h3 h4 h5 h6  (Six side lengths for specifying kekulenes/clarenes, or the clarene unit of CC-infinitenes)
-- h1 h2 h3 h4 h5 h6 d  (Six side lengths and d-shift for specifying CC-infinitene)
+- h1 h2 h3 h4 h5 h6  (Six side lengths for specifying a kekulene/clarene, or the clarene unit of CC-infinitenes)
+- h1 h2 h3 h4 h5 h6 d  (Six side lengths and d-shift for specifying a CC-infinitene)
 - h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6  (Twelve side lengths for enumeration of K- and C-infinitenes)
-- h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6 d (Twelve side lengths and d-shift for specifying K- and C-infinitenes)
+- h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6 d (Twelve side lengths and d-shift for specifying a K- or C-infinitene)
 ```
 
 #### 2. Types of structural constructions
