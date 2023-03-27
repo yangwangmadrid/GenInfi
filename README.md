@@ -36,7 +36,22 @@ This is a typical python program and requires no installation as long as Python 
 
 ## How to Use
 
+The program is executed at command line, as follows:
+
+```
+python geninfi.py <kinf|cinf|ccinf|kek|clr> <parameters>
+```
+where `parameters` can be either of the following options:
+```
+- Nring  (Number of rings for the molecules to enumerate)
+- h1 h2 h3 h4 h5 h6  (Six side lengths for specifying kekulenes/clarenes, or the clarene unit of CC-infinitenes)
+- h1 h2 h3 h4 h5 h6 d  (Six side lengths and d-shift for specifying CC-infinitene)
+- h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6  (Twelve side lengths for enumeration of K- and C-infinitenes)
+- h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6 d (Twelve side lengths and d-shift for specifying K- and C-infinitenes)
+```
+
 ### I. General description of usage
+It is very simple to use GenInfi to generate structures of infinitenes, kekulenes, and clarenes. 
 
 #### 1. Command line arguments
 
