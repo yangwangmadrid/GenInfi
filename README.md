@@ -103,11 +103,32 @@ The following examples can be found in the `examples/` folder. The execution com
 ```
 python ../../geninfi.py kek 1 3 2 3 1 4
 ```
+**NOTE:** All side lengths of a kekulene must form a valid equiangular hexagon.
+
+The output file `kek_R14-1_3_2_3_1_4.xyz` will be generated.
+
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kek_R14-1_3_2_3_1_4.png" 
      alt="kekulene [1,3,2,3,1,4]" title="kekulene [1,3,2,3,1,4]" width=150 />
 
+- Enumerate all possible \[15\]kekulene structures"
+```
+python ../../geninfi.py kek 15
+```
+As we will see, four structures are generated: `kek_R15-1_2_4_2_1_5.xyz`, `kek_R15-1_3_3_2_2_4.xyz`, `kek_R15-1_4_1_4_1_4.xyz`, and `kek_R15-2_3_2_3_2_3.xyz`.
+
 
 #### 2. Clarenes
+
+- Generate clarene <2,4,4,4,2,6>:
+```
+python ../../geninfi.py clr 2 4 4 4 2 6
+```
+**NOTE:** All side lengths of a clarene must be even numbers and form a valid equiangular hexagon.
+
+The output file `clr_R22-2_4_4_4_2_6.xyz` will be generated.
+
+<img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/clr_R22-2_4_4_4_2_6.png" 
+     alt="clarene <2,4,4,4,2,6>" title="clarene <2,4,4,4,2,6>" width=180 />
 
 #### 3. K-infinitenes
 
