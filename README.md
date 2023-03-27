@@ -194,8 +194,20 @@ We will obtain 27 isomers of \[32\]C-infinitenes with different combinations of 
 ```
 python ../../geninfi.py ccinf 6 2 4 4 4 2 -6
 ```
-The generated \[28\]C-infinitene will be stored in `ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.xyz`, as shown in the figure below.
+The generated \[28\]CC-infinitene will be stored in `ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.xyz`, as shown in the figure below.
 
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.png" 
      alt="CC-infinitene <coronene|6,2,4,4,4,2>(-6)" title="CC-infinitene <1,1,1,1,1,1|6,2,4,4,4,2>(-6)" width=250 />
+
+- Enumerate all CC-infinitenes composed of coronene and clarene <4,2,2,4,2,2>"
+```
+python ../../geninfi.py ccinf 4 2 2 4 2 2
+```
+We will get four possible structures: `ccinf_R22-1_1_1_1_1_1-2_2_4_2_2_4_d-2.xyz`, `ccinf_R22-1_1_1_1_1_1-2_2_4_2_2_4_d0.xyz`, `ccinf_R22-1_1_1_1_1_1-4_2_2_4_2_2_d-2.xyz`, and `ccinf_R22-1_1_1_1_1_1-4_2_2_4_2_2_d-4.xyz`.
+
+- Enumerate all possible \[26\]C-infinitenes
+```
+python ../../geninfi.py ccinf 26
+```
+Eventually eight structures will be created: `ccinf_R26-1_1_1_1_1_1-2_2_6_2_2_6_d-2.xyz`, ..., `ccinf_R26-1_1_1_1_1_1-6_2_2_6_2_2_d-6.xyz`.
 
