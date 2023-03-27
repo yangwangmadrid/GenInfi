@@ -65,10 +65,32 @@ where `parameters` can be either of the following options, depending on the type
 
 **(i) Direct generation of a specified structure**
 
+- By specifying 6 side lengths, `h1 h2 h3 h4 h5 h6`, one can construct the corresponding kekulene \[h1,h2,h3,h4,h5,h6\] or clarene <h1,h2,h3,h4,h5,h6>.
+
+- For making a CC-infinitene <coronene|h1,h2,h3,h4,h5,h6>(d), one needs to provide an additional integer for the shift `d`.
+
+- Likewise, given the 12 side lengths, `h1 h2 h3 h4 h5 h6 k1 k2 k3 k4 k5 k6`, and the shift `d`, the corresponding K-infinitene \[h1,h2,h3,h4,h5,h6|k1,k2,k3,k4,k5,k6\](d) or C-infinitene <h1,h2,h3,h4,h5,h6|k1,k2,k3,k4,k5,k6>(d) is obtained.
+
+**NOTE:** All provided structural parameters must be valid for the desired molecule to construct. Otherwise, an error message will be prompted by GenInfi. 
+
+
 **(ii) Enumeration of structures from specified kekulene/clarene units**
+
+One can enumerate all possible structures of K-infinitenes/C-infinitenes that are composed of two given kekulene/clarene units by specifying the side lengths for the corresponding kekulene/clarenes. Note that a given pair of kekulene (or clarene) units can have many different combinations to form K-infinitene (or C-infinitene) structures, depending on their contacting sides, relative shifts and relative orientation.
+
+For CC-infinitenes, similar enumeration can be performed, but one only needs to provide the side lengths of the constituting clarene unit.
+
 
 **(iii) Enumeration of structures with a given number of rings**
 
+The simplest (but most exhaustive) way to generate these macrocyclic compounds is to tell GenInfi how many benzene rings you want the molecule to have. Given the number of rings, `Nring`, the program will conduct a full structural enumeration.
+
+
+#### 3. Outputs
+
+- All detailed information is printed out to the screen during the execution of the program. This could be quite lengthy especially for a full enumeration of structures. It is thus recommended to redirect the screen output to a log file (using `python SRC_GENINFI/geninfi.py ... > log_file`).
+- All generated structures are saved as Cartesian coordinates of atoms in \*.xyz files.
+- For each structure, the simple Hückel π energy is computed and given in the title line of the \*.xyz file.
 
 ### II. Detailed instructions with examples
 
