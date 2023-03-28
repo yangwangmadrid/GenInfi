@@ -110,7 +110,7 @@ The output file `kek_R14-1_3_2_3_1_4.xyz` will be generated.
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kek_R14-1_3_2_3_1_4.png" 
      alt="kekulene [1,3,2,3,1,4]" title="kekulene [1,3,2,3,1,4]" width=150 />
 
-- Enumerate all possible \[15\]kekulene structures
+- Enumerate all possible \[15\]kekulene structures:
 ```css
 python ../../geninfi.py kek 15
 ```
@@ -130,7 +130,7 @@ The output file `clr_R22-2_4_4_4_2_6.xyz` will be generated.
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/clr_R22-2_4_4_4_2_6.png" 
      alt="clarene <2,4,4,4,2,6>" title="clarene <2,4,4,4,2,6>" width=180 />
      
-- Enumerate all possible \[26\]clarene structures
+- Enumerate all possible \[26\]clarene structures:
 ```css
 python ../../geninfi.py clr 26
 ```
@@ -151,13 +151,13 @@ The constructed molecule contains 42 rings, as written in `kinf_R42-2_4_3_4_2_5-
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kinf_R42-2_4_3_4_2_5-3_3_4_5_1_6_d1.png" 
      alt="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" title="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" width=250 />
 
-- Enumerate all possible K-infinitenes composed of kekulenes \[1,1,2,1,1,2\] and \[1,2,3,1,2,3\]
+- Enumerate all possible K-infinitenes composed of kekulenes \[1,1,2,1,1,2\] and \[1,2,3,1,2,3\]:
 ```css
 python ../../geninfi.py kinf 1 1 2 1 1 2 1 2 3 1 2 3
 ```
 As GenInfi outputs, there are as many as 30 enumerated structures: `kinf_R20-1_1_2_1_1_2-1_2_3_1_2_3_d-1.xyz`, ..., `kinf_R20-1_2_1_1_2_1-3_2_1_3_2_1_d0.xyz`.
 
-- Enumerate all possible K-infinitenes containing 14 rings
+- Enumerate all possible K-infinitenes containing 14 rings:
 ```css
 python ../../geninfi.py kinf 14
 ```
@@ -175,13 +175,13 @@ The obtained 42-ring infinitene, `cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.xyz`, sho
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.png" 
      alt="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" title="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" width=250 />
 
-- Enumerate all possible C-infinitenes composed of clarenes <2,4,2,4,2,4> and <6,4,2,6,4,2>
+- Enumerate all possible C-infinitenes composed of clarenes <2,4,2,4,2,4> and <6,4,2,6,4,2>:
 ```css
 python ../../geninfi.py cinf 2 4 2 4 2 4 6 4 2 6 4 2
 ```
 GenInfi will produce 36 different possible structures: `cinf_R42-2_4_2_4_2_4-2_4_6_2_4_6_d-2.xyz`, ..., `cinf_R42-4_2_4_2_4_2-6_4_2_6_4_2_d0.xyz`.
 
-- Enumerate all possible C-infinitenes with 32 rings
+- Enumerate all possible C-infinitenes with 32 rings:
 ```css
 python ../../geninfi.py cinf 32
 ```
@@ -199,14 +199,14 @@ The generated \[28\]CC-infinitene will be stored in `ccinf_R28-1_1_1_1_1_1-6_2_4
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.png" 
      alt="CC-infinitene <coronene|6,2,4,4,4,2>(-6)" title="CC-infinitene <1,1,1,1,1,1|6,2,4,4,4,2>(-6)" width=250 />
 
-- Enumerate all CC-infinitenes composed of coronene and clarene <4,2,2,4,2,2>
+- Enumerate all CC-infinitenes composed of coronene and clarene <4,2,2,4,2,2>:
 ```css
 python ../../geninfi.py ccinf 4 2 2 4 2 2
 ```
 We will get four possible structures: `ccinf_R22-1_1_1_1_1_1-2_2_4_2_2_4_d-2.xyz`, `ccinf_R22-1_1_1_1_1_1-2_2_4_2_2_4_d0.xyz`, `ccinf_R22-1_1_1_1_1_1-4_2_2_4_2_2_d-2.xyz`, and `ccinf_R22-1_1_1_1_1_1-4_2_2_4_2_2_d-4.xyz`.
 
-- Enumerate all possible \[26\]C-infinitenes
+- Enumerate all possible \[26\]CC-infinitenes:
 ```css
 python ../../geninfi.py ccinf 26
 ```
-Eventually eight structures will be created: `ccinf_R26-1_1_1_1_1_1-2_2_6_2_2_6_d-2.xyz`, ..., `ccinf_R26-1_1_1_1_1_1-6_2_2_6_2_2_d-6.xyz`.
+Eventually, eight structures will be created: `ccinf_R26-1_1_1_1_1_1-2_2_6_2_2_6_d-2.xyz`, ..., `ccinf_R26-1_1_1_1_1_1-6_2_2_6_2_2_d-6.xyz`.
