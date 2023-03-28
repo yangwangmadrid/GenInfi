@@ -130,7 +130,7 @@ The output file `clr_R22-2_4_4_4_2_6.xyz` will be generated.
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/clr_R22-2_4_4_4_2_6.png" 
      alt="clarene <2,4,4,4,2,6>" title="clarene <2,4,4,4,2,6>" width=180 />
      
-- Enumerate all possible \[26\]clarene structures"
+- Enumerate all possible \[26\]clarene structures
 ```css
 python ../../geninfi.py clr 26
 ```
