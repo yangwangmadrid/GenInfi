@@ -90,7 +90,7 @@ The simplest (but most exhaustive) way to generate these macrocyclic compounds i
 
 - All generated structures are saved as Cartesian coordinates of atoms in \*.xyz files, which can be visualized by many softwares such as [JMol](https://jmol.sourceforge.net/).
 - Hydrogen atoms are automatically added to the carbon backbone in quite an intelligent way.
-- For each structure, the simple HÃ¼ckel Ï energy is computed and given in the title line of the \*.xyz file.
+- For each structure, the simple Hückel π energy is computed and given in the title line of the \*.xyz file.
 - All detailed information is printed out to the screen during the execution of the program. This could be quite lengthy especially for a full enumeration of structures. It is thus recommended to redirect the screen output to a log file (using `python SRC_GENINFI/geninfi.py ... > log_file`).
 
 ### II. Detailed instructions with examples
