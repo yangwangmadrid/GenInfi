@@ -90,7 +90,7 @@ The simplest (but most exhaustive) way to generate these macrocyclic compounds i
 
 - All generated structures are saved as Cartesian coordinates of atoms in \*.xyz files, which can be visualized by many softwares such as [JMol](https://jmol.sourceforge.net/).
 - Hydrogen atoms are automatically added to the carbon backbone in quite an intelligent way.
-- For each structure, the simple Hückel π energy is computed and given in the title line of the \*.xyz file.
+- For each structure, the simple HÃ¼ckel Ï energy is computed and given in the title line of the \*.xyz file.
 - All detailed information is printed out to the screen during the execution of the program. This could be quite lengthy especially for a full enumeration of structures. It is thus recommended to redirect the screen output to a log file (using `python SRC_GENINFI/geninfi.py ... > log_file`).
 
 ### II. Detailed instructions with examples
@@ -110,7 +110,7 @@ The output file `kek_R14-1_3_2_3_1_4.xyz` will be generated.
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kek_R14-1_3_2_3_1_4.png" 
      alt="kekulene [1,3,2,3,1,4]" title="kekulene [1,3,2,3,1,4]" width=150 />
 
-- Enumerate all possible \[15\]kekulene structures"
+- Enumerate all possible \[15\]kekulene structures
 ```css
 python ../../geninfi.py kek 15
 ```
@@ -151,7 +151,7 @@ The constructed molecule contains 42 rings, as written in `kinf_R42-2_4_3_4_2_5-
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/kinf_R42-2_4_3_4_2_5-3_3_4_5_1_6_d1.png" 
      alt="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" title="K-infinitene [2,4,3,4,2,5|3,3,4,5,1,6](1)" width=250 />
 
-- Enumerate all possible K-infinitenes composed of kekulenes \[1,1,2,1,1,2\] and \[1,2,3,1,2,3\]"
+- Enumerate all possible K-infinitenes composed of kekulenes \[1,1,2,1,1,2\] and \[1,2,3,1,2,3\]
 ```css
 python ../../geninfi.py kinf 1 1 2 1 1 2 1 2 3 1 2 3
 ```
@@ -175,7 +175,7 @@ The obtained 42-ring infinitene, `cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.xyz`, sho
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/cinf_R42-2_4_2_4_2_4-6_4_2_6_4_2_d-2.png" 
      alt="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" title="C-infinitene <2,4,2,4,2,4|6,4,2,6,4,2>(-2)" width=250 />
 
-- Enumerate all possible C-infinitenes composed of clarenes <2,4,2,4,2,4> and <6,4,2,6,4,2>"
+- Enumerate all possible C-infinitenes composed of clarenes <2,4,2,4,2,4> and <6,4,2,6,4,2>
 ```css
 python ../../geninfi.py cinf 2 4 2 4 2 4 6 4 2 6 4 2
 ```
@@ -199,7 +199,7 @@ The generated \[28\]CC-infinitene will be stored in `ccinf_R28-1_1_1_1_1_1-6_2_4
 <img src="https://github.com/yangwangmadrid/GenInfi/blob/main/images/ccinf_R28-1_1_1_1_1_1-6_2_4_4_4_2_d-6.png" 
      alt="CC-infinitene <coronene|6,2,4,4,4,2>(-6)" title="CC-infinitene <1,1,1,1,1,1|6,2,4,4,4,2>(-6)" width=250 />
 
-- Enumerate all CC-infinitenes composed of coronene and clarene <4,2,2,4,2,2>"
+- Enumerate all CC-infinitenes composed of coronene and clarene <4,2,2,4,2,2>
 ```css
 python ../../geninfi.py ccinf 4 2 2 4 2 2
 ```
@@ -210,4 +210,3 @@ We will get four possible structures: `ccinf_R22-1_1_1_1_1_1-2_2_4_2_2_4_d-2.xyz
 python ../../geninfi.py ccinf 26
 ```
 Eventually eight structures will be created: `ccinf_R26-1_1_1_1_1_1-2_2_6_2_2_6_d-2.xyz`, ..., `ccinf_R26-1_1_1_1_1_1-6_2_2_6_2_2_d-6.xyz`.
-
