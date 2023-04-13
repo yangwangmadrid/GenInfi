@@ -6,6 +6,18 @@ Generating infinitenes, kekulenes and clarenes
      
 This is a handy program for generating structures of generalized infinitenes, generalized kekulenes, as well as clarenes. All constructed molecular structures are exported in Cartesian coordinates in \*.xyz files.
 
+**Download link for the latest v1.0 version**:
+https://github.com/yangwangmadrid/GenInfi/releases/download/v1.0/GenInfi_v1.0_release.zip
+
+
+## How to cite
+
+If you havee used EzReson in your research papers or presentations, it is 
+obligatory to cite the following works:
+
+Ke Du, Yang Wang. Infinitenes as the Most Stable Form of Cycloarenes:
+The Interplay Between π Delocalization, Strain, and π-π Stacking. *J. Am. Chem. Soc.* **2023**, *in press*.
+
 
 ## Copyright and License
 The Author of the Geninfi software is Yang Wang 
