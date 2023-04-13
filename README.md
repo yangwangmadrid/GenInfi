@@ -12,7 +12,7 @@ https://github.com/yangwangmadrid/GenInfi/releases/download/v1.0/GenInfi_v1.0_re
 
 ## How to cite
 
-If you havee used EzReson in your research papers or presentations, it is 
+If your research publications or presentations involve the use of GenInfi, it is 
 obligatory to cite the following works:
 
 Ke Du, Yang Wang. Infinitenes as the Most Stable Form of Cycloarenes:
