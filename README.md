@@ -15,8 +15,8 @@ https://github.com/yangwangmadrid/GenInfi/releases/download/v1.0/GenInfi_v1.0_re
 If your research publications or presentations involve the use of GenInfi, it is 
 obligatory to cite the following works:
 
-1. [Ke Du, Yang Wang. Infinitenes as the Most Stable Form of Cycloarenes: 
-The Interplay Between π Delocalization, Strain, and π-π Stacking. *J. Am. Chem. Soc.* **2023**, *145*, 10763-10778.](https://pubs.acs.org/action/showCitFormats?doi=10.1021/jacs.3c01644&ref=pdf)
+1. Ke Du, Yang Wang. Infinitenes as the Most Stable Form of Cycloarenes: 
+The Interplay Between π Delocalization, Strain, and π-π Stacking. *J. Am. Chem. Soc.* **2023**, *145*, 10763-10778. [DOI:10.1021/jacs.3c01644](https://doi.org/10.1021/jacs.3c01644)
 
 2. Yang Wang. The GenInfi program. **2023**, https://github.com/yangwangmadrid/GenInfi.
 
